@@ -3,7 +3,7 @@ import { FcFilledFilter } from "react-icons/fc";
 import { Container } from "./Filter.styled";
 import { Input, Label } from "../ContactForm/ContactForm.styled";
 
-export default function Filter({ onFilter }, { filter }) {
+export default function Filter({ onFilter, filter }) {
   const handleInput = (e) => {
     onFilter(e.target.value);
   };
