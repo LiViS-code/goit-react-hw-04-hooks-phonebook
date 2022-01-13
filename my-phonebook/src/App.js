@@ -67,10 +67,6 @@ export default function App() {
 
   const onContactsGroup = contacts.length !== 0 ? true : false;
   const onContactsFilter = contacts.length >= 2 ? true : false;
-  console.log("contacts.length", contacts.length);
-  console.log("contacts", contacts);
-  console.log("onContactsGroup", onContactsGroup);
-  console.log("onContactsFilter", onContactsFilter);
 
   return (
     <Container>
