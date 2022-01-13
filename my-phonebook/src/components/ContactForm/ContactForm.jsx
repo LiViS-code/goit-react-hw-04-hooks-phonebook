@@ -27,8 +27,6 @@ export default function ContactForm({ onChangeState }) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    setNumber(number);
-
     if (onChangeState(name, number) === "success") {
       setNumber("");
       setName("");
