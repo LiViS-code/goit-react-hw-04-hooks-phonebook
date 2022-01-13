@@ -74,7 +74,7 @@ export default function App() {
         <Logo src={phonebook} alt="fonebook" width="50px" />
         Phonebook
       </Title>
-      <ContactForm contacts={contacts} onChangeState={onChangeState} />
+      <ContactForm onChangeState={onChangeState} />
       {onContactsGroup ? (
         <>
           <ContactsTitle>Contacts</ContactsTitle>
